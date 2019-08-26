@@ -1,4 +1,9 @@
 .logo {
-    display: block;
-    margin: auto;
+    display: inline-block;
+    height: 544px;
+    width: 184px;
+}
+
+.logo-cont {
+    text-align: center;
 }
