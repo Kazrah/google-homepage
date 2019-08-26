@@ -1,9 +1,10 @@
 .logo {
-    display: inline-block;
-    height: 544px;
-    width: 184px;
+    width: 272px;
+    height: 92px;
 }
 
+
 .logo-cont {
-    text-align: center;
+    left: calc(50% - 272px/2);
+    position: absolute;
 }
