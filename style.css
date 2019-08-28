@@ -1,10 +1,12 @@
+
 .logo {
     width: 272px;
     height: 92px;
+    margin: auto;
+    display: block;
 }
 
 
 .logo-cont {
-    left: calc(50% - 272px/2);
-    position: absolute;
+   position: relative;
 }
