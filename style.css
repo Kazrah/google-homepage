@@ -1,12 +1,36 @@
+.logocont {
+    margin-top: 13%;
+}
 
 .logo {
     width: 272px;
     height: 92px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
 }
 
+.form {
+    margin: 2% auto;
+}
 
-.logo-cont {
-   position: relative;
+div input {
+    margin: 0 auto;
+    display: block;
+}
+
+input[type=text] {
+    width: 42%;
+    background-color:rgb(241, 243, 244);
+    border-radius: 30px;
+    padding: 13px;
+    border: 0px;
+}
+
+input[type=text]:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+input[type=text]:focus {
+    background-color: rgb(238, 238, 238);
+    outline: none;
 }
