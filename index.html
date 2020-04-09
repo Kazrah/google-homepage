@@ -4,15 +4,37 @@
         <title>Moje Google</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     </head>
 
 <body>
-    <div class="logocont">
-        <img class="logo" src="logo.png">
-    </div>
-    <div class="form">
-        <input type="text" name="search" placeholder="Search Google or type a URL?"><br>
-    </div>
+    <section id="nav">
+        <div class="navbar">
+            <div class="left">
+                <a href="">About</a>
+                <a href="">Store</a>
+            </div>
+            <div class="right">
+                <a href="">Gmail</a>
+                <a href="">Images</a>
+                <a href=""><i class="fas fa-th fa-lg"></i></a>
+                <button>Sign In</button>
+            </div>
+        </div>
+    </section>
+    <section class="logocont">
+        <div>
+            <img class="logo" src="logo.png">
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="input">
+            <i class="fas fa-search" style="opacity: 0.3;"></i>
+            <input type="text" name="search" id="pole" placeholder="">
+            <i class="fas fa-microphone"></i>
+        </div>
+    </section>
 </body>    
 
 </html>
