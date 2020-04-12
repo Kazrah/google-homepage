@@ -75,3 +75,68 @@ input[type=text]:focus {
     padding: 0 12px;
     height: 30px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(34, 34, 34);
+    background: #f2f2f2;
+    height: 6%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.footerdiv a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    opacity: 0.75;
+    font-size: 14px;
+}
+
+.footerdiv a:hover {
+    text-decoration: underline;
+}
+
+.footerdiv .left a {
+    padding-left: 27px;
+}
+
+.footerdiv .right a {
+    padding-right: 27px;
+}
+
+.buttons {
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    margin: auto;
+}
+
+.btndiv button {
+    background: #f2f2f2;
+    color: rgb(34, 34, 34);
+    opacity: 0.75;
+    border: 1px solid #f2f2f2;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btndiv button:hover {
+    color: black;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
